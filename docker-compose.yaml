@@ -1,0 +1,6 @@
+services:
+  redirect-checker:
+    image: jeakob/redirect-checker:latest
+    ports:
+      - "3000:3000"  # Adjust if your app uses a different port
+    command: npm start
